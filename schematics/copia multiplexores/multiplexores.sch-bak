@@ -1,0 +1,864 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1983 1949 0    50   ~ 0
+conector\n
+$Comp
+L 74xx:74LS165 M4
+U 1 1 60FCA368
+P 3300 1775
+F 0 "M4" H 3300 2764 50  0000 C CNN
+F 1 "74LS165" H 3300 2765 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3300 1775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf" H 3300 1775 50  0001 C CNN
+	1    3300 1775
+	1    0    0    -1  
+$EndComp
+Text Label 3300 875  0    50   ~ 0
+Vcc
+Text Label 7600 2775 3    50   ~ 0
+GND
+Text Label 7600 875  0    50   ~ 0
+Vcc
+Text Label 4725 2775 3    50   ~ 0
+GND
+Text Label 3300 2775 3    50   ~ 0
+GND
+Text Label 4725 875  0    50   ~ 0
+Vcc
+$Comp
+L 74xx:74LS165 M3
+U 1 1 60FC94FC
+P 4725 1775
+F 0 "M3" H 4725 2764 50  0000 C CNN
+F 1 "74LS165" H 4725 2765 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4725 1775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf" H 4725 1775 50  0001 C CNN
+	1    4725 1775
+	1    0    0    -1  
+$EndComp
+Text Label 8100 1175 0    50   ~ 0
+DPB(D2)
+Text Label 5225 1175 0    50   ~ 0
+DS2B
+Text Label 4225 1175 2    50   ~ 0
+DS3A
+Text Label 7100 2175 2    50   ~ 0
+LP(D5)
+$Comp
+L 74xx:74LS165 M1
+U 1 1 60FC6EDF
+P 7600 1775
+F 0 "M1" H 7600 2764 50  0000 C CNN
+F 1 "74LS165" H 7600 2765 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 7600 1775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf" H 7600 1775 50  0001 C CNN
+	1    7600 1775
+	1    0    0    -1  
+$EndComp
+Text Label 4225 2175 2    50   ~ 0
+LP(D5)
+Text Label 2800 2175 2    50   ~ 0
+LP(D5)
+Text Label 4225 2375 2    50   ~ 0
+CP(D4)
+Text Label 2800 2375 2    50   ~ 0
+CP(D4)
+Text Label 4225 2475 2    50   ~ 0
+CEP(D15)
+Text Label 2800 2475 2    50   ~ 0
+CEP(D15)
+Wire Notes Line
+	8500 3250 8500 625 
+Wire Notes Line
+	2375 625  2375 3250
+Wire Notes Line
+	8500 3250 2375 3250
+Text Notes 8075 3225 0    50   ~ 0
+74LS165N\n
+$Comp
+L Connector:Conn_01x03_Female Conn1
+U 1 1 60FDB3D2
+P 1250 3550
+F 0 "Conn1" V 1188 3362 50  0001 R CNN
+F 1 "1" V 1142 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1250 3550 50  0001 C CNN
+F 3 "~" H 1250 3550 50  0001 C CNN
+	1    1250 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn2
+U 1 1 60FDC91D
+P 1725 3550
+F 0 "Conn2" V 1663 3362 50  0001 R CNN
+F 1 "2" V 1617 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1725 3550 50  0001 C CNN
+F 3 "~" H 1725 3550 50  0001 C CNN
+	1    1725 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn3
+U 1 1 60FDCBD1
+P 2200 3550
+F 0 "Conn3" V 2138 3362 50  0001 R CNN
+F 1 "3" V 2092 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2200 3550 50  0001 C CNN
+F 3 "~" H 2200 3550 50  0001 C CNN
+	1    2200 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female conn7
+U 1 1 60FDCE8F
+P 4075 3550
+F 0 "conn7" V 4013 3362 50  0001 R CNN
+F 1 "7" V 3967 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4075 3550 50  0001 C CNN
+F 3 "~" H 4075 3550 50  0001 C CNN
+	1    4075 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn8
+U 1 1 60FDD200
+P 4575 3550
+F 0 "Conn8" V 4513 3362 50  0001 R CNN
+F 1 "8" V 4467 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4575 3550 50  0001 C CNN
+F 3 "~" H 4575 3550 50  0001 C CNN
+	1    4575 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn9
+U 1 1 60FDD647
+P 5050 3550
+F 0 "Conn9" V 4988 3362 50  0001 R CNN
+F 1 "9" V 4942 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5050 3550 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn13
+U 1 1 60FDDAEC
+P 7050 3550
+F 0 "Conn13" V 6988 3362 50  0001 R CNN
+F 1 "13" V 6942 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7050 3550 50  0001 C CNN
+F 3 "~" H 7050 3550 50  0001 C CNN
+	1    7050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn14
+U 1 1 60FDDF78
+P 7575 3550
+F 0 "Conn14" V 7513 3362 50  0001 R CNN
+F 1 "14" V 7467 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7575 3550 50  0001 C CNN
+F 3 "~" H 7575 3550 50  0001 C CNN
+	1    7575 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn15
+U 1 1 60FDE408
+P 8125 3550
+F 0 "Conn15" V 8063 3362 50  0001 R CNN
+F 1 "15" V 8017 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8125 3550 50  0001 C CNN
+F 3 "~" H 8125 3550 50  0001 C CNN
+	1    8125 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female conn4
+U 1 1 60FDE7C1
+P 2675 3550
+F 0 "conn4" V 2613 3362 50  0001 R CNN
+F 1 "4" V 2567 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2675 3550 50  0001 C CNN
+F 3 "~" H 2675 3550 50  0001 C CNN
+	1    2675 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn10
+U 1 1 60FDEBF6
+P 5525 3550
+F 0 "Conn10" V 5463 3362 50  0001 R CNN
+F 1 "10" V 5417 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5525 3550 50  0001 C CNN
+F 3 "~" H 5525 3550 50  0001 C CNN
+	1    5525 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn16
+U 1 1 60FDEE0F
+P 1250 4050
+F 0 "Conn16" V 1188 3862 50  0001 R CNN
+F 1 "16" V 1142 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1250 4050 50  0001 C CNN
+F 3 "~" H 1250 4050 50  0001 C CNN
+	1    1250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn5
+U 1 1 60FDF099
+P 3150 3550
+F 0 "Conn5" V 3088 3362 50  0001 R CNN
+F 1 "5" V 3042 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3150 3550 50  0001 C CNN
+F 3 "~" H 3150 3550 50  0001 C CNN
+	1    3150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn11
+U 1 1 60FDF282
+P 6025 3550
+F 0 "Conn11" V 5963 3362 50  0001 R CNN
+F 1 "11" V 5917 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6025 3550 50  0001 C CNN
+F 3 "~" H 6025 3550 50  0001 C CNN
+	1    6025 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn17
+U 1 1 60FDF444
+P 1725 4050
+F 0 "Conn17" V 1663 3862 50  0001 R CNN
+F 1 "17" V 1617 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1725 4050 50  0001 C CNN
+F 3 "~" H 1725 4050 50  0001 C CNN
+	1    1725 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn6
+U 1 1 60FDF63E
+P 3625 3550
+F 0 "Conn6" V 3563 3362 50  0001 R CNN
+F 1 "6" V 3517 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3625 3550 50  0001 C CNN
+F 3 "~" H 3625 3550 50  0001 C CNN
+	1    3625 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn12
+U 1 1 60FDF819
+P 6550 3550
+F 0 "Conn12" V 6488 3362 50  0001 R CNN
+F 1 "12" V 6442 3362 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6550 3550 50  0001 C CNN
+F 3 "~" H 6550 3550 50  0001 C CNN
+	1    6550 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn18
+U 1 1 60FDF9AD
+P 2200 4050
+F 0 "Conn18" V 2138 3862 50  0001 R CNN
+F 1 "18" V 2092 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2200 4050 50  0001 C CNN
+F 3 "~" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn23
+U 1 1 60FDFB40
+P 4550 4050
+F 0 "Conn23" V 4488 3862 50  0001 R CNN
+F 1 "23" V 4442 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4550 4050 50  0001 C CNN
+F 3 "~" H 4550 4050 50  0001 C CNN
+	1    4550 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn24
+U 1 1 60FDFD07
+P 5050 4050
+F 0 "Conn24" V 4988 3862 50  0001 R CNN
+F 1 "24" V 4942 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5050 4050 50  0001 C CNN
+F 3 "~" H 5050 4050 50  0001 C CNN
+	1    5050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn22
+U 1 1 60FE025B
+P 4075 4050
+F 0 "Conn22" V 4013 3862 50  0001 R CNN
+F 1 "22" V 3967 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4075 4050 50  0001 C CNN
+F 3 "~" H 4075 4050 50  0001 C CNN
+	1    4075 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn21
+U 1 1 60FE0408
+P 3625 4050
+F 0 "Conn21" V 3563 3862 50  0001 R CNN
+F 1 "21" V 3517 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3625 4050 50  0001 C CNN
+F 3 "~" H 3625 4050 50  0001 C CNN
+	1    3625 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn20
+U 1 1 60FE05F3
+P 3150 4050
+F 0 "Conn20" V 3088 3862 50  0001 R CNN
+F 1 "20" V 3042 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3150 4050 50  0001 C CNN
+F 3 "~" H 3150 4050 50  0001 C CNN
+	1    3150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn19
+U 1 1 60FE13B6
+P 2675 4050
+F 0 "Conn19" V 2613 3862 50  0001 R CNN
+F 1 "19" V 2567 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2675 4050 50  0001 C CNN
+F 3 "~" H 2675 4050 50  0001 C CNN
+	1    2675 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn25
+U 1 1 60FE16B1
+P 5525 4050
+F 0 "Conn25" V 5463 3862 50  0001 R CNN
+F 1 "25" V 5417 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5525 4050 50  0001 C CNN
+F 3 "~" H 5525 4050 50  0001 C CNN
+	1    5525 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn26
+U 1 1 60FE18B6
+P 6025 4050
+F 0 "Conn26" V 5963 3862 50  0001 R CNN
+F 1 "26" V 5917 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6025 4050 50  0001 C CNN
+F 3 "~" H 6025 4050 50  0001 C CNN
+	1    6025 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn27
+U 1 1 60FE1B4E
+P 6525 4050
+F 0 "Conn27" V 6463 3862 50  0001 R CNN
+F 1 "27" V 6417 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6525 4050 50  0001 C CNN
+F 3 "~" H 6525 4050 50  0001 C CNN
+	1    6525 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn28
+U 1 1 60FE1DC9
+P 7050 4050
+F 0 "Conn28" V 6988 3862 50  0001 R CNN
+F 1 "28" V 6942 3862 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7050 4050 50  0001 C CNN
+F 3 "~" H 7050 4050 50  0001 C CNN
+	1    7050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn29
+U 1 1 60FE2068
+P 7575 4025
+F 0 "Conn29" V 7513 3837 50  0001 R CNN
+F 1 "29" V 7467 3837 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7575 4025 50  0001 C CNN
+F 3 "~" H 7575 4025 50  0001 C CNN
+	1    7575 4025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Conn30
+U 1 1 60FE2469
+P 8125 4025
+F 0 "Conn30" V 8063 3837 50  0001 R CNN
+F 1 "30" V 8017 3837 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8125 4025 50  0001 C CNN
+F 3 "~" H 8125 4025 50  0001 C CNN
+	1    8125 4025
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	1000 4525 1000 3450
+Text Notes 7875 4500 0    50   ~ 0
+Entradas CNY70\n
+Text Label 1150 3750 3    50   ~ 0
+Vcc
+Text Label 1250 3750 3    50   ~ 0
+GND
+Text Label 1350 3750 3    50   ~ 0
+D1
+Text Label 1150 4250 3    50   ~ 0
+Vcc
+Text Label 1625 3750 3    50   ~ 0
+Vcc
+Text Label 1625 4250 3    50   ~ 0
+Vcc
+Text Label 2100 4250 3    50   ~ 0
+Vcc
+Text Label 2100 3750 3    50   ~ 0
+Vcc
+Text Label 2575 4250 3    50   ~ 0
+Vcc
+Text Label 2575 3750 3    50   ~ 0
+Vcc
+Text Label 3050 3750 3    50   ~ 0
+Vcc
+Text Label 3050 4250 3    50   ~ 0
+Vcc
+Text Label 3525 3750 3    50   ~ 0
+Vcc
+Text Label 3525 4250 3    50   ~ 0
+Vcc
+Text Label 3975 4250 3    50   ~ 0
+Vcc
+Text Label 3975 3750 3    50   ~ 0
+Vcc
+Text Label 4475 3750 3    50   ~ 0
+Vcc
+Text Label 4450 4250 3    50   ~ 0
+Vcc
+Text Label 4950 4250 3    50   ~ 0
+Vcc
+Text Label 4950 3750 3    50   ~ 0
+Vcc
+Text Label 5425 4250 3    50   ~ 0
+Vcc
+Text Label 5425 3750 3    50   ~ 0
+Vcc
+Text Label 5925 3750 3    50   ~ 0
+Vcc
+Text Label 6450 3750 3    50   ~ 0
+Vcc
+Text Label 6950 3750 3    50   ~ 0
+Vcc
+Text Label 7475 3750 3    50   ~ 0
+Vcc
+Text Label 8025 3750 3    50   ~ 0
+Vcc
+Text Label 8025 4225 3    50   ~ 0
+Vcc
+Text Label 7475 4225 3    50   ~ 0
+Vcc
+Text Label 6950 4250 3    50   ~ 0
+Vcc
+Text Label 6425 4250 3    50   ~ 0
+Vcc
+Text Label 5925 4250 3    50   ~ 0
+Vcc
+Text Label 1250 4250 3    50   ~ 0
+GND
+Text Label 1725 4250 3    50   ~ 0
+GND
+Text Label 1725 3750 3    50   ~ 0
+GND
+Text Label 2200 4250 3    50   ~ 0
+GND
+Text Label 2200 3750 3    50   ~ 0
+GND
+Text Label 2675 4250 3    50   ~ 0
+GND
+Text Label 2675 3750 3    50   ~ 0
+GND
+Text Label 3150 4250 3    50   ~ 0
+GND
+Text Label 3150 3750 3    50   ~ 0
+GND
+Text Label 3625 4250 3    50   ~ 0
+GND
+Text Label 3625 3750 3    50   ~ 0
+GND
+Text Label 4075 4250 3    50   ~ 0
+GND
+Text Label 4075 3750 3    50   ~ 0
+GND
+Text Label 4550 4250 3    50   ~ 0
+GND
+Text Label 4575 3750 3    50   ~ 0
+GND
+Text Label 5050 4250 3    50   ~ 0
+GND
+Text Label 5050 3750 3    50   ~ 0
+GND
+Text Label 5525 3750 3    50   ~ 0
+GND
+Text Label 6025 3750 3    50   ~ 0
+GND
+Text Label 6550 3750 3    50   ~ 0
+GND
+Text Label 7050 3750 3    50   ~ 0
+GND
+Text Label 7575 3750 3    50   ~ 0
+GND
+Text Label 8125 3750 3    50   ~ 0
+GND
+Text Label 8125 4225 3    50   ~ 0
+GND
+Text Label 7575 4225 3    50   ~ 0
+GND
+Text Label 7050 4250 3    50   ~ 0
+GND
+Text Label 6525 4250 3    50   ~ 0
+GND
+Text Label 6025 4250 3    50   ~ 0
+GND
+Text Label 5525 4250 3    50   ~ 0
+GND
+Text Label 1350 4250 3    50   ~ 0
+D16
+Text Label 1825 3750 3    50   ~ 0
+D2
+Text Label 2300 3750 3    50   ~ 0
+D3
+Text Label 2775 3750 3    50   ~ 0
+D4
+Text Label 3250 3750 3    50   ~ 0
+D5
+Text Label 3725 3750 3    50   ~ 0
+D6
+Text Label 4175 3750 3    50   ~ 0
+D7
+Text Label 4675 3750 3    50   ~ 0
+D8
+Text Label 5150 3750 3    50   ~ 0
+D9
+Text Label 5625 3750 3    50   ~ 0
+D10
+Text Label 6125 3750 3    50   ~ 0
+D11
+Text Label 6650 3750 3    50   ~ 0
+D12
+Text Label 7150 3750 3    50   ~ 0
+D13
+Text Label 7675 3750 3    50   ~ 0
+D14
+Text Label 8225 3750 3    50   ~ 0
+D15
+Text Label 1825 4250 3    50   ~ 0
+D17
+Text Label 2300 4250 3    50   ~ 0
+D18
+Text Label 2775 4250 3    50   ~ 0
+D19
+Text Label 3250 4250 3    50   ~ 0
+D20
+Text Label 3725 4250 3    50   ~ 0
+D21
+Text Label 4175 4250 3    50   ~ 0
+D22
+Text Label 4650 4250 3    50   ~ 0
+D23
+Text Label 5150 4250 3    50   ~ 0
+D24
+Text Label 5625 4250 3    50   ~ 0
+D25
+Text Label 6125 4250 3    50   ~ 0
+D26
+Text Label 6625 4250 3    50   ~ 0
+D27
+Text Label 7150 4250 3    50   ~ 0
+D28
+Text Label 7675 4225 3    50   ~ 0
+D29
+Text Label 8225 4225 3    50   ~ 0
+D30
+Wire Notes Line
+	2375 625  8500 625 
+Text Label 5675 2475 2    50   ~ 0
+CEP(D15)
+Text Label 5675 2375 2    50   ~ 0
+CP(D4)
+Text Label 5675 2175 2    50   ~ 0
+LP(D5)
+Text Label 5675 1175 2    50   ~ 0
+DS2A
+Text Label 6175 875  0    50   ~ 0
+Vcc
+Text Label 6175 2775 3    50   ~ 0
+GND
+$Comp
+L 74xx:74LS165 M2
+U 1 1 60FC891F
+P 6175 1775
+F 0 "M2" H 6175 2764 50  0000 C CNN
+F 1 "74LS165" H 6175 2765 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 6175 1775 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf" H 6175 1775 50  0001 C CNN
+	1    6175 1775
+	1    0    0    -1  
+$EndComp
+Text Label 7100 2475 2    50   ~ 0
+CEP(D15)
+Text Label 7100 2375 2    50   ~ 0
+CP(D4)
+Text Label 3800 1175 0    50   ~ 0
+DS3B
+Text Label 2800 1275 2    50   ~ 0
+D1
+Text Label 2800 1375 2    50   ~ 0
+D2
+Text Label 2800 1475 2    50   ~ 0
+D3
+Text Label 2800 1575 2    50   ~ 0
+D4
+Text Label 2800 1675 2    50   ~ 0
+D5
+Text Label 2800 1775 2    50   ~ 0
+D6
+Text Label 2800 1875 2    50   ~ 0
+D7
+Text Label 2800 1975 2    50   ~ 0
+D8
+Text Label 4225 1275 2    50   ~ 0
+D9
+Text Label 4225 1375 2    50   ~ 0
+D10
+Text Label 4225 1475 2    50   ~ 0
+D11
+Text Label 4225 1575 2    50   ~ 0
+D12
+Text Label 4225 1675 2    50   ~ 0
+D13
+Text Label 4225 1775 2    50   ~ 0
+D14
+Text Label 4225 1875 2    50   ~ 0
+D15
+Text Label 4225 1975 2    50   ~ 0
+D16
+Text Label 5675 1275 2    50   ~ 0
+D17
+Text Label 5675 1375 2    50   ~ 0
+D18
+Text Label 5675 1475 2    50   ~ 0
+D19
+Text Label 5675 1575 2    50   ~ 0
+D20
+Text Label 5675 1675 2    50   ~ 0
+D21
+Text Label 5675 1775 2    50   ~ 0
+D22
+Text Label 5675 1875 2    50   ~ 0
+D23
+Text Label 5675 1975 2    50   ~ 0
+D24
+Text Label 7100 1275 2    50   ~ 0
+D25
+Text Label 7100 1375 2    50   ~ 0
+D26
+Text Label 7100 1475 2    50   ~ 0
+D27
+Text Label 7100 1575 2    50   ~ 0
+D28
+Text Label 7100 1775 2    50   ~ 0
+D30
+Text Label 7100 1675 2    50   ~ 0
+D29
+Wire Notes Line
+	1158 1974 2358 1974
+Text Label 1611 1704 0    50   ~ 0
+Vcc
+Text GLabel 1782 1804 2    50   Input ~ 0
+GND
+Text Label 1611 1804 0    50   ~ 0
+GND
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 610FC739
+P 1411 1804
+F 0 "J2" H 1329 1479 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1329 1570 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1411 1804 50  0001 C CNN
+F 3 "~" H 1411 1804 50  0001 C CNN
+	1    1411 1804
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2350 625  2350 1975
+Wire Wire Line
+	1611 1804 1782 1804
+$Comp
+L Device:R R1
+U 1 1 61044DB0
+P 1125 2275
+F 0 "R1" H 1195 2321 50  0000 L CNN
+F 1 "15" H 1195 2230 50  0000 L CNN
+F 2 "extensores:extensor 15mm" V 1055 2275 50  0001 C CNN
+F 3 "~" H 1125 2275 50  0001 C CNN
+	1    1125 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61045256
+P 1425 2275
+F 0 "R2" H 1495 2321 50  0000 L CNN
+F 1 "15" H 1495 2230 50  0000 L CNN
+F 2 "extensores:extensor 15mm" V 1355 2275 50  0001 C CNN
+F 3 "~" H 1425 2275 50  0001 C CNN
+	1    1425 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 610458F7
+P 1700 2275
+F 0 "R3" H 1770 2321 50  0000 L CNN
+F 1 "15" H 1770 2230 50  0000 L CNN
+F 2 "extensores:extensor 15mm" V 1630 2275 50  0001 C CNN
+F 3 "~" H 1700 2275 50  0001 C CNN
+	1    1700 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61045C3B
+P 2075 2275
+F 0 "R4" H 2145 2321 50  0000 L CNN
+F 1 "15" H 2145 2230 50  0000 L CNN
+F 2 "extensores:extensor 15mm" V 2005 2275 50  0001 C CNN
+F 3 "~" H 2075 2275 50  0001 C CNN
+	1    2075 2275
+	1    0    0    -1  
+$EndComp
+Text Notes 1800 2825 0    50   ~ 0
+Extensores\n
+Text Label 6675 1175 0    50   ~ 0
+DS1B
+Text Label 7100 1175 2    50   ~ 0
+DS1A
+Text Label 1125 2125 2    50   ~ 0
+DS1A
+Text Label 1125 2425 3    50   ~ 0
+DS1B
+Text Label 1425 2125 2    50   ~ 0
+DS2A
+Text Label 1425 2425 3    50   ~ 0
+DS2B
+Text Label 1700 2125 2    50   ~ 0
+DS3A
+Text Label 1700 2425 3    50   ~ 0
+DS3B
+Text Label 2075 2425 3    50   ~ 0
+DPB(D2)
+Text Label 2075 2125 2    50   ~ 0
+DPA(D2)
+Wire Notes Line
+	925  2000 2350 2000
+Wire Notes Line
+	925  2850 2350 2850
+Wire Notes Line
+	2350 2000 2350 2850
+Wire Notes Line
+	925  2000 925  2850
+Wire Notes Line
+	925  1975 925  625 
+Wire Notes Line
+	1025 625  2350 625 
+Wire Notes Line
+	925  1975 1150 1975
+Wire Notes Line
+	925  625  1024 625 
+Text Label 1450 1175 2    50   ~ 0
+CEP(D15)
+Text Label 1450 1075 2    50   ~ 0
+LP(D5)
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 6104BA2F
+P 1650 1075
+F 0 "J1" H 1700 1292 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 1700 1201 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 1650 1075 50  0001 C CNN
+F 3 "~" H 1650 1075 50  0001 C CNN
+	1    1650 1075
+	1    0    0    -1  
+$EndComp
+Text Label 1950 1075 0    50   ~ 0
+CP(D4)
+Text Label 1950 1175 0    50   ~ 0
+DPA(D2)
+$Comp
+L Connector:Conn_01x03_Female Conn?
+U 1 1 61074C50
+P 8625 3575
+F 0 "Conn?" V 8563 3387 50  0001 R CNN
+F 1 "31" V 8517 3387 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8625 3575 50  0001 C CNN
+F 3 "~" H 8625 3575 50  0001 C CNN
+	1    8625 3575
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	1000 4525 8975 4525
+Wire Notes Line
+	1000 3450 8975 3450
+Wire Notes Line
+	8975 3450 8975 4525
+$Comp
+L Connector:Conn_01x03_Female Conn?
+U 1 1 61075221
+P 8625 4025
+F 0 "Conn?" V 8563 3837 50  0001 R CNN
+F 1 "32" V 8517 3837 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8625 4025 50  0001 C CNN
+F 3 "~" H 8625 4025 50  0001 C CNN
+	1    8625 4025
+	0    -1   -1   0   
+$EndComp
+Text Label 8725 4225 3    50   ~ 0
+D32
+Text Label 8625 4225 3    50   ~ 0
+GND
+Text Label 8525 4225 3    50   ~ 0
+Vcc
+Text Label 8725 3775 3    50   ~ 0
+D31
+Text Label 8625 3775 3    50   ~ 0
+GND
+Text Label 8525 3775 3    50   ~ 0
+Vcc
+Text Label 7100 1875 2    50   ~ 0
+D31
+Text Label 7100 1975 2    50   ~ 0
+D32
+$EndSCHEMATC
