@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "364318405965",
+    "firebase_url": "https://carros-db-default-rtdb.firebaseio.com",
+    "project_id": "carros-db",
+    "storage_bucket": "carros-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364318405965:android:e594c46d1b161eb372b304",
+        "android_client_info": {
+          "package_name": "com.agustin.compusort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364318405965-6ejl4i2qp8k0o0kbuenvhc1b4rcgj89v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXpbRsmXIOYhn5wQTuykBfJNZTaYxmI4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364318405965-6ejl4i2qp8k0o0kbuenvhc1b4rcgj89v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
