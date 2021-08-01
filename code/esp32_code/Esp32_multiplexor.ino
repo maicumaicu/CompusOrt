@@ -57,10 +57,8 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  if (shift.update() /*&& millis() - elapsedMillis > update_interval*/)
+  if (shift.update())
   { //   read in all values. returns true if any button has changed
-    elapsedMillis = millis();
-    //displayValues();
     database_test();
   }
   delay(50);
@@ -148,15 +146,4 @@ void database_test() {
       Serial.println();
     }
   }
-}
-
-void displayValues() {
-  //sr.set(filas[7], HIGH);
-  for (int i = 0; i < shift.getDataWidth(); i++)
-  {
-    Serial.print( shift.state(i) ); // get state of button i
-    //sr.set(columnas[i], shift.state(i));
-  }
-
-  Serial.println();
 }
