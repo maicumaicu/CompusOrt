@@ -1,3 +1,5 @@
+
+
 #include <WiFi.h>
 #include <FirebaseESP32.h>
 //Provide the token generation process info.
@@ -11,7 +13,7 @@ LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x3F, 16, 2);
 #define DEVICE_UID "1X"
 
 #define WIFI_SSID "TeleCentro-fa9a"
-#define WIFI_PASSWORD "UDNYYJMF2NHZ"
+#define WIFI_PASSWORD "------------"
 
 // Your Firebase Project Web API Key
 #define API_KEY "AIzaSyBn91QeWRTFmObDHwux17QOOvOhl9HvA0E"
