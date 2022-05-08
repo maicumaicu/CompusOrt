@@ -128,7 +128,6 @@ void database_test() {
       if(i == 15){
         lcd.setCursor(0, 1);
       }
-      
     }
     Serial.println();
     // Firebase.pushJSON(fbdo, "/NL4A", json)
