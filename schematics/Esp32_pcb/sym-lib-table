@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name esp32-devkit-v1)(type Legacy)(uri C:/Users/usuario/Desktop/4°año/efs1/ESP_para_KiCad/esp32-devkit-v1.lib)(options "")(descr ""))
+  (lib (name "esp32-devkit-v1")(type "Legacy")(uri "C:/Users/usuario/Desktop/4°año/efs1/ESP_para_KiCad/esp32-devkit-v1.lib")(options "")(descr ""))
+  (lib (name "esp32-rescue")(type "Legacy")(uri "${KIPRJMOD}/esp32-rescue.lib")(options "")(descr ""))
 )
